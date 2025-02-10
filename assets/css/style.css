@@ -2161,3 +2161,79 @@ section .container {
 .bio-card:hover::before, .interest-card:hover::before, .profile-card:hover::before {
   opacity: 1;
 }
+/* Contact Section Styles */
+.contact {
+  padding: 60px 0;
+}
+
+.contact-form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background: rgba(9, 32, 58, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form .form-group {
+  margin-bottom: 25px;
+}
+
+.contact-form .form-control {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.contact-form .form-control:focus {
+  background: rgba(255, 255, 255, 0.12);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(18, 214, 64, 0.2);
+}
+
+.contact-form textarea.form-control {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 12px 35px;
+  background: #12d640;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #0fb535;
+  transform: translateY(-2px);
+}
+
+/* Placeholder Styles */
+.contact-form .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-form-container {
+    padding: 20px;
+  }
+  
+  .contact-form .form-control {
+    padding: 12px;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 12px;
+  }
+}
