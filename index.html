@@ -635,80 +635,30 @@
       <h2>Contact</h2>
     </div>
 
-    <div class="contact-grid">
-      <!-- Address Card -->
-      <div class="contact-card">
-        <div class="contact-icon">
-          <i class="bx bx-map"></i>
+    <div class="contact-form-container">
+      <!-- This is where you add the form tag -->
+      <form class="contact-form" action="https://formsubmit.co/kishankumarreddy.konreddy@sjsu.edu" method="POST">
+        <div class="form-group">
+          <input type="text" name="name" class="form-control" id="name" placeholder="Your Full Name" required>
         </div>
-        <div class="contact-info">
-          <h3>My Address</h3>
-          <div class="info-details">
-            <p>190, Ryland St</p>
-            <p>San Jose, CA-95110</p>
-            <p>United States</p>
-          </div>
+        
+        <div class="form-group">
+          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
         </div>
-      </div>
 
-      <!-- Social Profiles Card -->
-      <div class="contact-card">
-        <div class="contact-icon">
-          <i class="bx bx-share-alt"></i>
+        <div class="form-group">
+          <textarea class="form-control" name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
         </div>
-        <div class="contact-info">
-          <h3>Social Profiles</h3>
-          <div class="social-links">
-            <a href="https://www.linkedin.com/in/kishan-kumar-reddy-konreddy/" target="_blank" class="social-icon linkedin">
-              <i class="bx bxl-linkedin"></i>
-            </a>
-            <a href="mailto:kishankumarreddy.konreddy@sjsu.edu" target="_blank" class="social-icon email">
-              <i class="bx bxl-google"></i>
-            </a>
-            <a href="https://github.com/KishanKonreddy" target="_blank" class="social-icon github">
-              <i class="bx bxl-github"></i>
-            </a>
-          </div>
-        </div>
-      </div>
 
-      <!-- Email Card -->
-      <div class="contact-card">
-        <div class="contact-icon">
-          <i class="bx bx-envelope"></i>
+        <div class="text-center">
+          <button type="submit">Send Message</button>
         </div>
-        <div class="contact-info">
-          <h3>Email</h3>
-          <div class="info-details">
-            <p>
-              <a href="mailto:kishankumarreddy.konreddy@sjsu.edu">
-                kishankumarreddy.konreddy@sjsu.edu
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Phone Card -->
-      <div class="contact-card">
-        <div class="contact-icon">
-          <i class="bx bx-phone-call"></i>
-        </div>
-        <div class="contact-info">
-          <h3>Phone</h3>
-          <div class="info-details">
-            <p>
-              <a href="tel:+16699772530">+1 (669) 977-2530</a>
-            </p>
-          </div>
-        </div>
-      </div>
+      </form>
     </div>
   </div>
 </section>
 
   <!-- End Contact Section -->
-
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
